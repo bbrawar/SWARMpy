@@ -12,8 +12,7 @@ A Python package for loading and processing CDF files as pandas DataFrames or xa
 git clone https://github.com/bbrawar/pySWARM.git
 cd pySWARM
 pip install .
-'''
-
+```
 ### Using pip
 ```bash
 pip install pySWARM
