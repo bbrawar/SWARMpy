@@ -8,11 +8,11 @@ setup(
     long_description="""
 pySWARM is a lightweight Python package that facilitates the loading of .CDF files into either pandas DataFrames or xarray Datasets.
 It leverages SpacePy for .CDF file reading and provides a simple interface to convert and work with these files efficiently.
-    ",
+    """,
     long_description_content_type="text/markdown",
     author="Bhuvnesh Brawar",
-    author_email="your_email@example.com",
-    url="https://github.com/yourusername/pyswarm",
+    author_email="bbrawar@gmail.com",
+    url="https://github.com/bbrawar/pySWARM",
     license="MIT",
     packages=find_packages(),
     install_requires=[
