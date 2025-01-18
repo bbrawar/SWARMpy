@@ -22,15 +22,4 @@ def load_cdf_file(filename, output_type="xarray"):
     except Exception as e:
         raise Exception(f"An error occurred: {e}")
 
-if __name__ == "__main__":
-    import argparse
-    parser = argparse.ArgumentParser(description="Load a .CDF file and return its contents.")
-    parser.add_argument("filename", type=str, help="Path to the .CDF file.")
-    parser.add_argument("--output_type", type=str, default="xarray", choices=["pandas", "xarray"], help="Output data format.")
-    args = parser.parse_args()
 
-    data = load_cdf_file(args.filename, output_type=args.output_type)
-    if args.output_type == "pandas":
-        print(data.head())
-    else:
-        print(data)
