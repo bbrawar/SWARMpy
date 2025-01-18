@@ -1,5 +1,5 @@
 from .load_cdf import load_cdf_file
-# pySWARM module initializer
+# SWARMpy module initializer
 
 __all__ = ["load_cdf_file"]
 
