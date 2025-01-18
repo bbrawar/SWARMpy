@@ -26,10 +26,10 @@ from pySWARM import load_cdf_file
 data = load_cdf_file("example.CDF", output_type="xarray")
 print(data)
 ```
+<!---
 ### Command-Line
 ```bash
 load_cdf example.CDF --output_type pandas
 ```
-
-
+--->
 
