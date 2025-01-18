@@ -1,4 +1,4 @@
-# pySWARM
+# SWARMpy
 
 A Python package for loading and processing CDF files as pandas DataFrames or xarray Datasets.
 
@@ -9,19 +9,19 @@ A Python package for loading and processing CDF files as pandas DataFrames or xa
 ## Installation
 ### From Github repo
 ```bash
-git clone https://github.com/bbrawar/pySWARM.git
-cd pySWARM
+git clone https://github.com/bbrawar/SWARMpy.git
+cd SWARMpy
 pip install .
 ```
 ### Using pip
 ```bash
-pip install pySWARM
+pip install SWARMpy
 ```
 
 ## Usage
 ### In IDE
 ```python
-from pySWARM import load_cdf_file
+from SWARMpy import load_cdf_file
 
 data = load_cdf_file("example.CDF", output_type="xarray")
 print(data)
